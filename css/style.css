@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:700");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700");
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.background {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 315px;
+}
+
+.bg-intro-mobile {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.bg-illustration {
+  position: absolute;
+  top: 110px;
+  z-index: 2;
+  width: 70%;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+}
+
+.nav-logo {
+  z-index: 3;
+}
+
+.menu {
+  z-index: 3;
+}
+
+.logo {
+  width: 85%;
+}
+
+.menu a {
+  color: white;
+  display: inline-block;
+}
+
+.menu-link {
+  padding: 0 15px;
+}
+
+.btn {
+  background-color: #05d69b;
+  padding: 10px 15px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
