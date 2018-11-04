@@ -19,69 +19,107 @@ $open-sans: 'Open Sans', sans-serif;
 $fw400: 400;
 $fw600: 600;
 $fw700: 700;
-// RESET
+// BASIC STYLES
+html {
+    font-size: 14px;
+}
+
 body {
-    margin: 0;
-    padding: 0;
+    font-family: $open-sans;
+    line-height: 1.5;
 }
 
 a {
     text-decoration: none;
 }
 
-// HEADER
-.background {
-    display: flex;
-    justify-content: center;
-    min-height: 315px;
+h1, h2, h3, h4, h5, h6 {
+    font-family: $raleway;
+    font-weight: $fw700;
+    color: $dark-gray;
 }
 
-.bg-intro-mobile {
+// BUTTON
+.btn {
+    background-color: $green;
+    padding: 0.7rem 1.5rem;
+    border-radius: 3px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    color: white;
+    text-align: center;
+}
+
+// HEADER
+.header__bg {
+    display: flex;
+    justify-content: center;
+    min-height: 260px;
+}
+
+.bg__intro-mobile {
     position: absolute;
     top: 0;
     right: 0;
     z-index: 1;
 }
 
-.bg-illustration {
+.bg__illustration {
     position: absolute;
-    top: 110px;
+    top: 90px;
     z-index: 2;
-    width: 275px;
+    width: 220px;
 }
 
-.nav {
+.header__nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 1rem 1.6rem;
 }
 
-.nav-logo {
+.nav__logo {
+    z-index: 3;
+    display: flex;
+    align-items: center;
+}
+
+.nav__menu {
     z-index: 3;
 }
 
-.menu {
-    z-index: 3;
-}
-
-.logo {
+.nav__logo .logo {
     width: 85%;
 }
 
-.menu a {
+.nav__menu a {
     color: white;
     display: inline-block;
+    font-size: 0.9rem;
 }
 
-.menu-link {
-    padding: 0 15px;
+.menu__link {
+    padding: 0 1.2rem;
 }
 
-.btn {
-    background-color: $green;
-    padding: 10px 15px;
-    border-radius: 3px;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-    color: white;
+.header h1 {
+    font-size: 1.8rem;
+    padding: 0 1.6rem;
+    text-align: center;
+    margin: 1.5rem 0;
+    line-height: 1.25;
+}
+
+.header p {
+    font-family: $open-sans;
+    color: $gray;
+    font-size: 1rem;
+    padding: 0 1.6rem;
+    text-align: center;
+    margin: 1.5rem 0;
+}
+
+.header__btn {
+    margin: 1.5rem 5rem;
+    font-weight: $fw700;
+    padding: 1rem 1.5rem;
 }
