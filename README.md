@@ -49,3 +49,33 @@ Feedback is always welcome, so if you have any on this challenge please email me
 This challenge is completely free. Please share it with anyone who will find it useful to practice on.
 
 **Have fun building!** 🚀
+
+# vue
+
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Run your tests
+```
+npm run test
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
