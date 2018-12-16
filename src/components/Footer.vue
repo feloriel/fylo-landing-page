@@ -1,5 +1,8 @@
 <template>
   <footer>
+    <div class="footer__logo">
+      <img class="logo" src="@/assets/logo-alt.svg" alt="Fylo">
+    </div>
     Receive updates from us, including tips and tricks on how to improve your workflow.
     Join
     Phone: +1-543-123-4567
@@ -33,7 +36,13 @@
   font-size: 11px;
   text-align: center;
 }
+
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+footer {
+  background-color: $dark-blue;
+  color: $white;
+  padding: 5rem 1.6rem;
 }
 </style>

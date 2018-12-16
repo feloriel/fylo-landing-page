@@ -66,7 +66,7 @@
 }
 
 .nav__menu a {
-  color: white;
+  color: $white;
   display: inline-block;
   font-size: 0.9rem;
 }
