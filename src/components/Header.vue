@@ -72,7 +72,7 @@
 }
 
 .menu__link {
-  padding: 0 1.2rem;
+  padding: 0 1rem;
 }
 
 .header h1 {
