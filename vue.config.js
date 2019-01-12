@@ -9,5 +9,5 @@ module.exports = {
       }
     }
   },
-  baseUrl: process.env.NODE_ENV === `production` ? `/demo/` : `/`
+  baseUrl: process.env.NODE_ENV === `production` ? `/fylo-landing-page/demo/` : `/`
 };
