@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.b859e2d1dab6ff69772113f11057e64c.js"
+  "/demo/precache-manifest.c4d279899b510cfe2b19ee7647497812.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "fylo-landing-page"});

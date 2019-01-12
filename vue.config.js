@@ -8,5 +8,6 @@ module.exports = {
         data: `@import "@/styles/variables.scss";`
       }
     }
-  }
+  },
+  baseUrl: process.env.NODE_ENV === `production` ? `/demo/` : `/`
 };
