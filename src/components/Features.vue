@@ -21,22 +21,27 @@
 </template>
 
 <style lang="scss" scoped>
-.features h2 {
-  font-size: 1.4rem;
-  padding: 0 1.6rem;
-  text-align: center;
-  margin: 1.5rem 0;
-  line-height: 1.25;
-  color: $dark-blue;
-}
+.features {
+  padding: 5rem 0;
+  background-color: $light-gray;
 
-.features p {
-  font-family: $open-sans;
-  color: $gray;
-  font-size: 1rem;
-  padding: 0 1.6rem;
-  text-align: center;
-  margin: 1.5rem 0;
+  h2 {
+    font-size: 1.4rem;
+    padding: 0 1.6rem;
+    text-align: center;
+    margin: 1.5rem 0;
+    line-height: 1.25;
+    color: $dark-blue;
+  }
+
+  p {
+    font-family: $open-sans;
+    color: $gray;
+    font-size: 1rem;
+    padding: 0 1.6rem;
+    text-align: center;
+    margin: 1.5rem 0;
+  }
 }
 
 .features__blocks {

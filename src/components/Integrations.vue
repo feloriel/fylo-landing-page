@@ -63,21 +63,33 @@
 </template>
 
 <style lang="scss" scoped>
-.integrations h2 {
-  font-size: 1.4rem;
-  padding: 0 1.6rem;
-  text-align: center;
-  margin: 1.5rem 0;
-  line-height: 1.25;
-  color: $dark-blue;
+.integrations {
+  padding: 5rem 0;
+
+  h2 {
+    font-size: 1.4rem;
+    padding: 0 1.6rem;
+    text-align: center;
+    margin: 1.5rem 0;
+    line-height: 1.25;
+    color: $dark-blue;
+  }
+
+  p {
+    font-family: $open-sans;
+    color: $gray;
+    font-size: 1rem;
+    padding: 0 1.6rem;
+    text-align: center;
+    margin: 1.5rem 0;
+  }
 }
 
-.integrations p {
-  font-family: $open-sans;
-  color: $gray;
-  font-size: 1rem;
-  padding: 0 1.6rem;
-  text-align: center;
+.integrations__blocks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid $light-gray;
   margin: 1.5rem 0;
 }
 </style>

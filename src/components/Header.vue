@@ -24,6 +24,10 @@
 </template>
 
 <style lang="scss" scoped>
+.header {
+  padding-bottom: 5rem;
+}
+
 .header__bg {
   display: flex;
   justify-content: center;
